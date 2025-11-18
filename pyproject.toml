@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=69.3"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "django-i54m-apiuser"
+version = "0.3.0"
+license = "MIT"
+license-files = ["LICENSE"]
+dependencies = [
+    "django>=3.2",
+    "django-ipware>=6.0.4"
+    ]
+description = "A Django app to add api keys to django users."
+readme = "README.md"
+requires-python = ">= 3.8"
+authors = [
+    {name = "i54m", email = "dev@i54m.com"},
+]
+classifiers = [
+    "Environment :: Web Environment",
+    "Framework :: Django",
+    "Framework :: Django :: 3.2",
+    "Intended Audience :: Developers",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Internet :: WWW/HTTP",
+    "Topic :: Internet :: WWW/HTTP :: Dynamic Content",
+]
+
+[project.urls]
+Homepage = "https://www.i54m.com"
