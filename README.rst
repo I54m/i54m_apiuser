@@ -2,10 +2,7 @@
 i54m-apiuser
 =====
 
-i54m-apiuser is a Django app to add api keys to django users.
-
-Detailed documentation is in the "docs" directory.
-
+i54m-apiuser is a Django app to add api keys to django users. 
 
 =====
 Changelog
