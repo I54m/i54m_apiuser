@@ -17,3 +17,7 @@ Reusable django app for custom users
 
 ## v0.2.2
  - Fixed last accessed ip always defaulting to "UNKNOWN" (may need tuned later if site is accessible outside cloudflare proxy)
+
+ ## v0.3
+ - Changed/Updated Packaging Method
+ - Added License
