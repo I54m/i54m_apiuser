@@ -31,6 +31,8 @@ def boot_django():
         ),
         TIME_ZONE="UTC",
         USE_TZ=True,
+        TEST_RUNNER = "xmlrunner.extra.djangotestrunner.XMLTestRunner",
+        TEST_OUTPUT_DIR=os.path.join(BASE_DIR, "test-results"),
     )
 
     django.setup()
